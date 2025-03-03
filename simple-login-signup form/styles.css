@@ -1,0 +1,176 @@
+/* general styles */
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+/* this first part provide the styles for the home page */
+
+#home-page {
+    width: 60vw;
+    height: 48vh;
+    background-color: white;
+    border-bottom: 5px solid gray;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 25vh;
+    border-radius: 50px;
+}
+
+#home-page > h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 4rem;
+
+}
+
+#home-page > a {
+    text-decoration: none;
+    padding: .8rem;
+    color: blue;
+    background-color: aliceblue;
+    margin: 20px 40px;
+    border-radius: .2rem;
+    border: 1px solid gray;
+
+    &:hover {
+        background-color: rgb(126, 167, 88);
+        font-size: 20px;
+        font-weight: bold;
+        color: whitesmoke;
+        cursor: pointer;
+ } 
+
+}
+
+/* styling for sign in form */
+.outer-wrapper {
+    background-color: aliceblue;
+    max-width: fit-content;
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+.signin-wrapper {
+    width: fit-content;
+    padding: 2rem 4rem;
+    margin: 0 auto;
+    margin-top: 15vh;
+    display: flex;
+    border-radius: 2px;
+    padding-bottom: 0;
+}
+
+
+.signin-wrapper > .text-section {
+    align-content: center;
+    text-align: left;
+    /* align-self: center; */
+}
+.signin-wrapper > #sign-in-form > input {
+    padding: 4px;
+    font-size: 16px;
+
+    &:hover {
+        background-color: bisque;
+    }
+
+    &:focus {
+        background-color: rgba(202, 187, 187, .9);
+        color: green;
+    }
+}
+
+
+.signin-wrapper > #sign-in-form {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    padding: 0 40px;
+    padding-bottom: 20px;
+    background-color: rgb(208, 238, 238);
+    border-radius: .4rem;
+    font-size: 24px;
+    margin-left: .8rem;
+    text-align: left;
+}
+
+.signin-wrapper > #sign-in-form > button {
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.more-message-container > p {
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+
+/* styling for the log in page */
+.outer-wrapper {
+    background-color: aliceblue;
+    max-width: fit-content;
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+.login-wrapper {
+    width: fit-content;
+    padding: 2rem 4rem;
+    margin: 0 auto;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 2px;
+    padding-bottom: 0;
+}
+
+
+.login-wrapper > .text-section {
+    align-content: center;
+    text-align: left;
+    /* align-self: center; */
+}
+.login-wrapper > #login-form > input {
+    padding: 4px;
+    font-size: 16px;
+
+    &:hover {
+        background-color: bisque;
+    }
+
+    &:focus {
+        background-color: rgba(202, 187, 187, .9);
+        color: green;
+    }
+}
+
+
+.login-wrapper > #login-form {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    padding: 0 40px;
+    padding-bottom: 20px;
+    background-color: rgb(208, 238, 238);
+    border-radius: .4rem;
+    font-size: 24px;
+    margin-right: .8rem;
+    text-align: left;
+}
+
+.login-wrapper > #login-form > button {
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.login-more-message-container > p {
+    font-size: 18px;
+    padding-bottom: 1rem;
+}

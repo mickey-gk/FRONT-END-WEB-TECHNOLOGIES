@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in page</title>
+
+    <!-- linking the style sheet -->
+     <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="outer-wrapper">
+        <div class="signin-wrapper" id="wrapper">
+            <div class="text-section">
+             <h4>Hi, welcome to the sign in page</h4>
+             <p>fill in with the required details to sign in </p>
+            </div>
+            <form id="sign-in-form">
+             <p>sign up:</p>
+             <label for="firstname">First Name:</label>
+             <input 
+                 id="firstname" 
+                 type="text" 
+                 name="firstname" 
+                 placeholder="first name"
+                 required 
+             /> <!-- /firstname field-->
+     
+             <label for="lastname">Last Name:</label>
+             <input
+                 id="lastname"
+                 type="text" 
+                 name="lastname" 
+                 placeholder="last name"
+                 required 
+             /> <!-- /lastname field-->
+     
+             <label for="email"> Email:</label>
+             <input
+                 id="email"
+                 type="email" 
+                 name="usermail" 
+                 placeholder=" e.g,... someone@mail.com"
+                 required 
+                 /> <!-- /email field-->
+     
+             <label for="password">Password:</label>
+             <input type="password" 
+                 id="password"
+                 name="pasword"
+             /> <!-- /password field -->
+     
+             <label for="confirm-password">confirm Password:</label>
+             <input type="password" 
+                 id="password"
+                 name="confirm-pasword"
+             /> <!-- /confirm-password field -->
+             <button type="submit">Submit</button>
+            </form> <!-- /sign in form -->
+         </div> <!-- /wrapper -->
+
+         <div class="more-message-container">
+            <p>Already have an account? <a href="/login.html">go to log in!</a></p>        
+         </div> <!-- /more message container-->
+         
+        </div> <!-- /outer wrapper -->
+
+</body>
+</html>

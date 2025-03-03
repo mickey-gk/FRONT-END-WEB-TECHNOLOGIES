@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in page</title>
+
+    <!-- linking the style sheet -->
+     <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="outer-wrapper">
+        <div class="login-wrapper" id="wrapper">
+            <div class="text-section">
+             <h4>Hi, to log into your account</h4>
+             <p>fill in with the required details </p>
+            </div>
+            <form id="login-form">
+             <p>Log in:</p>          
+             <label for="email"> Email:</label>
+             <input
+                 id="email"
+                 type="email" 
+                 name="usermail" 
+                 placeholder=" e.g,... someone@mail.com"
+                 required 
+                 /> <!-- /email field-->
+     
+             <label for="password">Password:</label>
+             <input type="password" 
+                 id="password"
+                 name="pasword"
+             /> <!-- /password field -->
+
+            <button type="submit">Submit</button>
+            </form> <!-- /sign in form -->
+         </div> <!-- /wrapper -->
+
+         <div class="more-message-container">
+            <p>Already have an account? <a href="/signup.html">go to sign up!</a></p>        
+         </div> <!-- /more message container-->
+         
+        </div> <!-- /outer wrapper -->
+<script src="/login-script.js"></script>
+</body>
+</html>
